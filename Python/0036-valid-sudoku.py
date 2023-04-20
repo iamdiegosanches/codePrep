@@ -1,10 +1,3 @@
-# Check the rows
-# transposed_matrix = list(zip(*grid))
-# for i in range(len(transposed_matrix[0])):
-#     numeros = list(filter(lambda x: x.isdigit(), transposed_matrix[i]))
-#     if len(set(numeros)) != len(numeros):
-#         print(False)
-
 def solution(grid):
     # Chech row
     for row in range(9):
